@@ -3,3 +3,5 @@ dist
 .turbo
 coverage
 *.log
+.DS_Store
+**/.DS_Store
