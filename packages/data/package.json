@@ -4,6 +4,10 @@
   "private": false,
   "description": "Community-maintained Indian highway dataset for highway-buddy",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ideasofrajat/highway-buddy"
+  },
   "type": "module",
   "scripts": {
     "validate": "node ./scripts/validate-plazas.mjs"

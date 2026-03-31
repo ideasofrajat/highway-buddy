@@ -33,7 +33,7 @@ yarn add highway-buddy
 pnpm add highway-buddy
 ```
 
-> **v0.1 Coverage Note:** Full data exists for NH-48 (22 plazas, Delhi–Mumbai). All other highways are community-expandable — see [CONTRIBUTING.md](./CONTRIBUTING.md). The API surface is stable. The dataset is what grows.
+> **v0.1 Coverage Note:** Full data exists for NH-48 (24 plazas, Delhi–Mumbai). All other highways are community-expandable — see [CONTRIBUTING.md](./CONTRIBUTING.md). The API surface is stable. The dataset is what grows.
 
 ---
 
@@ -76,7 +76,7 @@ await toll.estimate({ from: 'Delhi', to: 'Mumbai', vehicle: 'car' })
 await toll.byPlaza('Kherki Daula')
 // → { car: 90, lcv: 145, twoAxle: 290, ... }
 
-await toll.plazasOnRoute({ nh: 'NH48', from: 0, to: 280 })
+await toll.plazasOnRoute({ nh: 'NH-48', from: 0, to: 280 })
 ```
 
 ### `poi` — Highway POI
@@ -90,7 +90,7 @@ await poi.nearby({ lat: 27.58, lng: 75.92, type: 'petrol', radius: 15 })
 poi.types // 'petrol' | 'food' | 'atm' | 'hospital' | 'police' | 'rest'
 // Note: atm, hospital, and police return [] until data is contributed for those types
 
-await poi.onHighway({ nh: 'NH44', type: 'hospital' })
+await poi.onHighway({ nh: 'NH-44', type: 'hospital' })
 ```
 
 ### `highway` — Highway Info
@@ -98,13 +98,13 @@ await poi.onHighway({ nh: 'NH44', type: 'hospital' })
 Full metadata for any national highway — length, states, lanes, toll plazas, and speed limits.
 
 ```ts
-await highway.get('NH48')
-// → { number: 'NH48', length: 2807, states: ['Delhi', 'Haryana', 'Rajasthan', ...], lanes: 4, tollPlazas: 22 }
+await highway.get('NH-48')
+// → { number: 'NH-48', length: 2807, states: ['Delhi', 'Haryana', 'Rajasthan', ...], lanes: 4, tollPlazas: 24 }
 
 await highway.search('Mumbai')
 // → highways passing through or connecting to Mumbai
 
-await highway.speedLimit({ nh: 'NH48', km: 145 })
+await highway.speedLimit({ nh: 'NH-48', km: 145 })
 ```
 
 ### `emergency` — Emergency Contacts
@@ -112,21 +112,21 @@ await highway.speedLimit({ nh: 'NH48', km: 145 })
 NHAI highway helpline numbers, police stations on highway stretches, nearest trauma centres, and towing service contacts — accessible without internet.
 
 ```ts
-emergency.helpline({ nh: 'NH44' })
+emergency.helpline({ nh: 'NH-44' })
 // → { nhai: '1033', police: '100', ambulance: '108', towing: [...] }
 
 await emergency.nearestTrauma({ lat: 18.52, lng: 73.86 })
 // → { name: 'Sassoon General Hospital', dist: 4.1, phone: '...' }
 ```
 
-### `configure` — Cloud API Key (optional)
+### `configure` — Cloud API Key (v0.2 roadmap)
 
-For real-time toll updates and extended POI data, connect a highway-buddy Cloud key. Offline data works without any configuration.
+Reserved for the upcoming highway-buddy Cloud backend (real-time toll updates, extended POI data). Currently a no-op — all offline data works without calling this. Signature is stable so you can add it now without breaking changes when v0.2 ships.
 
 ```ts
 import { configure } from 'highway-buddy'
 
-configure({ apiKey: 'hb_live_...' })
+configure({ apiKey: 'hb_live_...' }) // no-op until v0.2
 ```
 
 ---
@@ -170,7 +170,7 @@ v0.1 ships with complete data for NH-48. Community contributions expand coverage
 | Metric | v0.1 (current) | Target |
 |---|---|---|
 | NHs with full data | 1 (NH-48) | 600+ |
-| Toll plazas mapped | 22 | 1,148 |
+| Toll plazas mapped | 24 | 1,148 |
 | POIs indexed | NH-48 only | 28,400+ |
 | Data sync cadence | Community PRs | Weekly automation |
 
@@ -178,7 +178,7 @@ v0.1 ships with complete data for NH-48. Community contributions expand coverage
 
 | Highway | Route | Status |
 |---|---|---|
-| NH-48 | Delhi–Mumbai | Full (22 plazas) |
+| NH-48 | Delhi–Mumbai | Full (24 plazas) |
 | NH-44 | Srinagar–Kanyakumari | Contributions welcome |
 | NH-19 | Delhi–Kolkata | Contributions welcome |
 | NH-27 | East-West Corridor | Contributions welcome |

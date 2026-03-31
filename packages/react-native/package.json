@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "description": "React Native components for highway-buddy (scaffold)",
   "license": "MIT",
-  "private": false,
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ideasofrajat/highway-buddy"
+  },
   "main": "src/index.ts",
   "types": "src/index.ts",
   "dependencies": {
