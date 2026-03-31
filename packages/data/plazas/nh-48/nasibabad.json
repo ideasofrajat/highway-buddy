@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_nasibabad",
+  "name": "Nasirabad Toll Plaza",
+  "nh": "NH-48",
+  "state": "Rajasthan",
+  "coordinates": { "lat": 26.3061, "lng": 74.7345 },
+  "rates": {
+    "car_jeep_van": { "single": 65, "return": 95, "fastag": 65 },
+    "lcv": { "single": 105, "return": 155, "fastag": 105 },
+    "bus_truck": { "single": 220, "return": 325, "fastag": 220 },
+    "mav": { "single": 345, "return": 515, "fastag": 345 },
+    "hcm_eme": { "single": 345, "return": 515, "fastag": 345 },
+    "oversized": { "single": 420, "return": 630, "fastag": 420 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

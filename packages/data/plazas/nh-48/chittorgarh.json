@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_chittorgarh",
+  "name": "Chittorgarh Toll Plaza",
+  "nh": "NH-48",
+  "state": "Rajasthan",
+  "coordinates": { "lat": 24.8792, "lng": 74.6293 },
+  "rates": {
+    "car_jeep_van": { "single": 80, "return": 120, "fastag": 80 },
+    "lcv": { "single": 130, "return": 195, "fastag": 130 },
+    "bus_truck": { "single": 270, "return": 405, "fastag": 270 },
+    "mav": { "single": 430, "return": 645, "fastag": 430 },
+    "hcm_eme": { "single": 430, "return": 645, "fastag": 430 },
+    "oversized": { "single": 525, "return": 785, "fastag": 525 }
+  },
+  "operator": "Private Concessionaire",
+  "last_updated": "2025-01-01"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_navsari",
+  "name": "Navsari Toll Plaza",
+  "nh": "NH-48",
+  "state": "Gujarat",
+  "coordinates": { "lat": 20.9467, "lng": 72.9313 },
+  "rates": {
+    "car_jeep_van": { "single": 65, "return": 100, "fastag": 65 },
+    "lcv": { "single": 105, "return": 155, "fastag": 105 },
+    "bus_truck": { "single": 220, "return": 330, "fastag": 220 },
+    "mav": { "single": 350, "return": 520, "fastag": 350 },
+    "hcm_eme": { "single": 350, "return": 520, "fastag": 350 },
+    "oversized": { "single": 425, "return": 640, "fastag": 425 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

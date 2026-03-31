@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "HighwayBuddy Toll Plaza",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "nh",
+    "state",
+    "coordinates",
+    "rates",
+    "operator",
+    "last_updated"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "name": { "type": "string" },
+    "nh": { "type": "string" },
+    "state": { "type": "string" },
+    "coordinates": {
+      "type": "object",
+      "required": ["lat", "lng"],
+      "properties": {
+        "lat": { "type": "number" },
+        "lng": { "type": "number" }
+      }
+    },
+    "rates": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["single", "return", "fastag"],
+        "properties": {
+          "single": { "type": "number" },
+          "return": { "type": "number" },
+          "fastag": { "type": "number" }
+        }
+      }
+    },
+    "operator": { "type": "string" },
+    "last_updated": { "type": "string", "format": "date" }
+  }
+}

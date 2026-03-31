@@ -1,0 +1,42 @@
+[
+  {
+    "id": "rs_shahpura_fuel",
+    "name": "Shahpura Fuel & Food Hub",
+    "type": "petrol_pump",
+    "nh": "NH-48",
+    "state": "Rajasthan",
+    "coordinates": { "lat": 27.3896, "lng": 75.9596 }
+  },
+  {
+    "id": "rs_behror_dhaba",
+    "name": "Behror Family Dhaba",
+    "type": "dhaba",
+    "nh": "NH-48",
+    "state": "Rajasthan",
+    "coordinates": { "lat": 27.8874, "lng": 76.2818 }
+  },
+  {
+    "id": "rs_udaipur_plaza",
+    "name": "Udaipur Express Rest Plaza",
+    "type": "rest_area",
+    "nh": "NH-48",
+    "state": "Rajasthan",
+    "coordinates": { "lat": 24.5858, "lng": 73.7132 }
+  },
+  {
+    "id": "rs_baroda_way",
+    "name": "Baroda Highway Services",
+    "type": "rest_area",
+    "nh": "NH-48",
+    "state": "Gujarat",
+    "coordinates": { "lat": 22.7592, "lng": 73.2102 }
+  },
+  {
+    "id": "rs_surat_energy",
+    "name": "Surat Energy Pump",
+    "type": "petrol_pump",
+    "nh": "NH-48",
+    "state": "Gujarat",
+    "coordinates": { "lat": 21.215, "lng": 72.8986 }
+  }
+]

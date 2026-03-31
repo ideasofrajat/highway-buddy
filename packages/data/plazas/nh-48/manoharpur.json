@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_manoharpur",
+  "name": "Manoharpur Toll Plaza",
+  "nh": "NH-48",
+  "state": "Rajasthan",
+  "coordinates": { "lat": 27.3001, "lng": 75.9494 },
+  "rates": {
+    "car_jeep_van": { "single": 75, "return": 115, "fastag": 75 },
+    "lcv": { "single": 120, "return": 180, "fastag": 120 },
+    "bus_truck": { "single": 250, "return": 375, "fastag": 250 },
+    "mav": { "single": 395, "return": 595, "fastag": 395 },
+    "hcm_eme": { "single": 395, "return": 595, "fastag": 395 },
+    "oversized": { "single": 480, "return": 720, "fastag": 480 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

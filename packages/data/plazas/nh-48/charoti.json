@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_charoti",
+  "name": "Charoti Toll Plaza",
+  "nh": "NH-48",
+  "state": "Maharashtra",
+  "coordinates": { "lat": 20.1715, "lng": 72.9978 },
+  "rates": {
+    "car_jeep_van": { "single": 95, "return": 145, "fastag": 95 },
+    "lcv": { "single": 155, "return": 230, "fastag": 155 },
+    "bus_truck": { "single": 320, "return": 475, "fastag": 320 },
+    "mav": { "single": 505, "return": 755, "fastag": 505 },
+    "hcm_eme": { "single": 505, "return": 755, "fastag": 505 },
+    "oversized": { "single": 620, "return": 925, "fastag": 620 }
+  },
+  "operator": "Private Concessionaire",
+  "last_updated": "2025-01-01"
+}

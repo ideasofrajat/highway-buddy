@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_kishangarh",
+  "name": "Kishangarh Toll Plaza",
+  "nh": "NH-48",
+  "state": "Rajasthan",
+  "coordinates": { "lat": 26.5738, "lng": 74.8711 },
+  "rates": {
+    "car_jeep_van": { "single": 95, "return": 145, "fastag": 95 },
+    "lcv": { "single": 150, "return": 225, "fastag": 150 },
+    "bus_truck": { "single": 315, "return": 470, "fastag": 315 },
+    "mav": { "single": 500, "return": 750, "fastag": 500 },
+    "hcm_eme": { "single": 500, "return": 750, "fastag": 500 },
+    "oversized": { "single": 610, "return": 915, "fastag": 610 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

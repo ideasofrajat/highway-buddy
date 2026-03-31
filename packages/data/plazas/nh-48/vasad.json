@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_vasad",
+  "name": "Vasad Toll Plaza",
+  "nh": "NH-48",
+  "state": "Gujarat",
+  "coordinates": { "lat": 22.4648, "lng": 73.0746 },
+  "rates": {
+    "car_jeep_van": { "single": 85, "return": 130, "fastag": 85 },
+    "lcv": { "single": 140, "return": 210, "fastag": 140 },
+    "bus_truck": { "single": 290, "return": 435, "fastag": 290 },
+    "mav": { "single": 460, "return": 690, "fastag": 460 },
+    "hcm_eme": { "single": 460, "return": 690, "fastag": 460 },
+    "oversized": { "single": 560, "return": 840, "fastag": 560 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

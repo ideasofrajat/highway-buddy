@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_shahjahanpur",
+  "name": "Shahjahanpur Toll Plaza",
+  "nh": "NH-48",
+  "state": "Rajasthan",
+  "coordinates": { "lat": 27.9586, "lng": 76.1994 },
+  "rates": {
+    "car_jeep_van": { "single": 85, "return": 125, "fastag": 85 },
+    "lcv": { "single": 135, "return": 200, "fastag": 135 },
+    "bus_truck": { "single": 285, "return": 425, "fastag": 285 },
+    "mav": { "single": 450, "return": 675, "fastag": 450 },
+    "hcm_eme": { "single": 450, "return": 675, "fastag": 450 },
+    "oversized": { "single": 550, "return": 825, "fastag": 550 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

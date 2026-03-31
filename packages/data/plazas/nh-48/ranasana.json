@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_ranasana",
+  "name": "Ranasana Toll Plaza",
+  "nh": "NH-48",
+  "state": "Gujarat",
+  "coordinates": { "lat": 23.2869, "lng": 72.5148 },
+  "rates": {
+    "car_jeep_van": { "single": 70, "return": 105, "fastag": 70 },
+    "lcv": { "single": 115, "return": 170, "fastag": 115 },
+    "bus_truck": { "single": 240, "return": 360, "fastag": 240 },
+    "mav": { "single": 380, "return": 570, "fastag": 380 },
+    "hcm_eme": { "single": 380, "return": 570, "fastag": 380 },
+    "oversized": { "single": 465, "return": 695, "fastag": 465 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

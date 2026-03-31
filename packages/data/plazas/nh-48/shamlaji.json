@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_shamlaji",
+  "name": "Shamlaji Toll Plaza",
+  "nh": "NH-48",
+  "state": "Gujarat",
+  "coordinates": { "lat": 23.6872, "lng": 73.3717 },
+  "rates": {
+    "car_jeep_van": { "single": 110, "return": 165, "fastag": 110 },
+    "lcv": { "single": 180, "return": 270, "fastag": 180 },
+    "bus_truck": { "single": 385, "return": 575, "fastag": 385 },
+    "mav": { "single": 610, "return": 915, "fastag": 610 },
+    "hcm_eme": { "single": 610, "return": 915, "fastag": 610 },
+    "oversized": { "single": 745, "return": 1115, "fastag": 745 }
+  },
+  "operator": "Private Concessionaire",
+  "last_updated": "2025-01-01"
+}

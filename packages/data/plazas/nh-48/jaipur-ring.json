@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_jaipur_ring",
+  "name": "Jaipur Ring Road Toll Plaza",
+  "nh": "NH-48",
+  "state": "Rajasthan",
+  "coordinates": { "lat": 26.8448, "lng": 75.6505 },
+  "rates": {
+    "car_jeep_van": { "single": 70, "return": 105, "fastag": 70 },
+    "lcv": { "single": 110, "return": 165, "fastag": 110 },
+    "bus_truck": { "single": 230, "return": 345, "fastag": 230 },
+    "mav": { "single": 365, "return": 545, "fastag": 365 },
+    "hcm_eme": { "single": 365, "return": 545, "fastag": 365 },
+    "oversized": { "single": 445, "return": 665, "fastag": 445 }
+  },
+  "operator": "Private Concessionaire",
+  "last_updated": "2025-01-01"
+}

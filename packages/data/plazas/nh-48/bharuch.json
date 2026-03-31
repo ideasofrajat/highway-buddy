@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_bharuch",
+  "name": "Bharuch Toll Plaza",
+  "nh": "NH-48",
+  "state": "Gujarat",
+  "coordinates": { "lat": 21.7051, "lng": 72.9959 },
+  "rates": {
+    "car_jeep_van": { "single": 80, "return": 120, "fastag": 80 },
+    "lcv": { "single": 130, "return": 195, "fastag": 130 },
+    "bus_truck": { "single": 275, "return": 410, "fastag": 275 },
+    "mav": { "single": 435, "return": 650, "fastag": 435 },
+    "hcm_eme": { "single": 435, "return": 650, "fastag": 435 },
+    "oversized": { "single": 530, "return": 795, "fastag": 530 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_menar",
+  "name": "Menar Toll Plaza",
+  "nh": "NH-48",
+  "state": "Rajasthan",
+  "coordinates": { "lat": 24.6423, "lng": 73.8744 },
+  "rates": {
+    "car_jeep_van": { "single": 75, "return": 110, "fastag": 75 },
+    "lcv": { "single": 120, "return": 180, "fastag": 120 },
+    "bus_truck": { "single": 255, "return": 380, "fastag": 255 },
+    "mav": { "single": 405, "return": 605, "fastag": 405 },
+    "hcm_eme": { "single": 405, "return": 605, "fastag": 405 },
+    "oversized": { "single": 495, "return": 740, "fastag": 495 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

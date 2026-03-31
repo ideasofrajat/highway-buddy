@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_kosamba",
+  "name": "Kosamba Toll Plaza",
+  "nh": "NH-48",
+  "state": "Gujarat",
+  "coordinates": { "lat": 21.4662, "lng": 72.9491 },
+  "rates": {
+    "car_jeep_van": { "single": 70, "return": 105, "fastag": 70 },
+    "lcv": { "single": 110, "return": 165, "fastag": 110 },
+    "bus_truck": { "single": 235, "return": 350, "fastag": 235 },
+    "mav": { "single": 370, "return": 555, "fastag": 370 },
+    "hcm_eme": { "single": 370, "return": 555, "fastag": 370 },
+    "oversized": { "single": 455, "return": 680, "fastag": 455 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

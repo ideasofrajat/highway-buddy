@@ -1,0 +1,31 @@
+{
+  "name": "highway-buddy-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Monorepo for highway-buddy SDK",
+  "license": "MIT",
+  "packageManager": "pnpm@9.12.0",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "format": "prettier --check .",
+    "typecheck": "turbo run typecheck",
+    "validate:data": "pnpm --filter @highway-buddy/data validate",
+    "docs": "turbo run docs",
+    "docs:dev": "pnpm --filter @highway-buddy/docs dev",
+    "setup": "node ./scripts/setup.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@typescript-eslint/eslint-plugin": "^8.44.0",
+    "@typescript-eslint/parser": "^8.44.0",
+    "eslint": "^9.35.0",
+    "pnpm": "^10.18.3",
+    "prettier": "^3.6.2",
+    "turbo": "^2.5.6",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  }
+}

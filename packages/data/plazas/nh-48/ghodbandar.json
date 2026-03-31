@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_ghodbandar",
+  "name": "Ghodbandar Toll Plaza",
+  "nh": "NH-48",
+  "state": "Maharashtra",
+  "coordinates": { "lat": 19.2758, "lng": 72.9661 },
+  "rates": {
+    "car_jeep_van": { "single": 45, "return": 70, "fastag": 45 },
+    "lcv": { "single": 75, "return": 110, "fastag": 75 },
+    "bus_truck": { "single": 155, "return": 235, "fastag": 155 },
+    "mav": { "single": 245, "return": 365, "fastag": 245 },
+    "hcm_eme": { "single": 245, "return": 365, "fastag": 245 },
+    "oversized": { "single": 300, "return": 450, "fastag": 300 }
+  },
+  "operator": "Private Concessionaire",
+  "last_updated": "2025-01-01"
+}

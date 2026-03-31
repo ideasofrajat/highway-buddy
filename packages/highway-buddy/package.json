@@ -1,0 +1,42 @@
+{
+  "name": "highway-buddy",
+  "version": "0.1.0",
+  "description": "The open-source TypeScript SDK for Indian highway toll data",
+  "license": "MIT",
+  "keywords": ["india", "highway", "toll", "nhai", "sdk", "typescript"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ideasofrajat/highway-buddy"
+  },
+  "homepage": "https://highway-buddy.dev",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts",
+    "test": "vitest run --coverage",
+    "lint": "eslint \"src/**/*.ts\" \"test/**/*.ts\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@highway-buddy/core": "workspace:*",
+    "@highway-buddy/data": "workspace:*"
+  },
+  "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.4",
+    "tsup": "^8.5.0",
+    "vitest": "^3.2.4"
+  }
+}

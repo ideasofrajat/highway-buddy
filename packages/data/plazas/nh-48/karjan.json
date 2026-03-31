@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_karjan",
+  "name": "Karjan Toll Plaza",
+  "nh": "NH-48",
+  "state": "Gujarat",
+  "coordinates": { "lat": 22.0519, "lng": 73.1363 },
+  "rates": {
+    "car_jeep_van": { "single": 95, "return": 145, "fastag": 95 },
+    "lcv": { "single": 155, "return": 230, "fastag": 155 },
+    "bus_truck": { "single": 320, "return": 480, "fastag": 320 },
+    "mav": { "single": 510, "return": 760, "fastag": 510 },
+    "hcm_eme": { "single": 510, "return": 760, "fastag": 510 },
+    "oversized": { "single": 620, "return": 930, "fastag": 620 }
+  },
+  "operator": "Private Concessionaire",
+  "last_updated": "2025-01-01"
+}

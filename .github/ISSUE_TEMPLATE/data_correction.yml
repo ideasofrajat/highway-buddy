@@ -1,0 +1,38 @@
+name: Data correction
+description: A toll rate or plaza detail is wrong or outdated
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Toll rates change. If you spotted incorrect data, report it here.
+
+  - type: input
+    id: plaza
+    attributes:
+      label: Plaza name
+      placeholder: "Kherki Daula Toll Plaza"
+    validations:
+      required: true
+
+  - type: input
+    id: nh
+    attributes:
+      label: National Highway
+      placeholder: "NH-48"
+    validations:
+      required: true
+
+  - type: textarea
+    id: correction
+    attributes:
+      label: What is wrong?
+      description: Describe the incorrect data and provide the correct values.
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Source / reference
+      description: Link to NHAI notification, official press release, or photo of the toll board.

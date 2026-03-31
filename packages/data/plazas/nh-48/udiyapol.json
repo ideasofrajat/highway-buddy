@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_udiyapol",
+  "name": "Udiyapol Toll Plaza",
+  "nh": "NH-48",
+  "state": "Rajasthan",
+  "coordinates": { "lat": 24.5716, "lng": 73.6852 },
+  "rates": {
+    "car_jeep_van": { "single": 60, "return": 90, "fastag": 60 },
+    "lcv": { "single": 95, "return": 145, "fastag": 95 },
+    "bus_truck": { "single": 205, "return": 305, "fastag": 205 },
+    "mav": { "single": 325, "return": 485, "fastag": 325 },
+    "hcm_eme": { "single": 325, "return": 485, "fastag": 325 },
+    "oversized": { "single": 395, "return": 590, "fastag": 395 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

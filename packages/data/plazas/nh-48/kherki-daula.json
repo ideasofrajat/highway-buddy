@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_kherki_daula",
+  "name": "Kherki Daula Toll Plaza",
+  "nh": "NH-48",
+  "state": "Haryana",
+  "coordinates": { "lat": 28.4229, "lng": 76.9712 },
+  "rates": {
+    "car_jeep_van": { "single": 90, "return": 135, "fastag": 90 },
+    "lcv": { "single": 145, "return": 220, "fastag": 145 },
+    "bus_truck": { "single": 305, "return": 455, "fastag": 305 },
+    "mav": { "single": 480, "return": 720, "fastag": 480 },
+    "hcm_eme": { "single": 480, "return": 720, "fastag": 480 },
+    "oversized": { "single": 585, "return": 875, "fastag": 585 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}

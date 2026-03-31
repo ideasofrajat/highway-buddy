@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_choryasi",
+  "name": "Choryasi Toll Plaza",
+  "nh": "NH-48",
+  "state": "Gujarat",
+  "coordinates": { "lat": 21.1048, "lng": 72.9776 },
+  "rates": {
+    "car_jeep_van": { "single": 85, "return": 125, "fastag": 85 },
+    "lcv": { "single": 135, "return": 200, "fastag": 135 },
+    "bus_truck": { "single": 280, "return": 420, "fastag": 280 },
+    "mav": { "single": 445, "return": 665, "fastag": 445 },
+    "hcm_eme": { "single": 445, "return": 665, "fastag": 445 },
+    "oversized": { "single": 540, "return": 810, "fastag": 540 }
+  },
+  "operator": "Private Concessionaire",
+  "last_updated": "2025-01-01"
+}

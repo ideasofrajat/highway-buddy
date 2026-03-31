@@ -1,0 +1,17 @@
+{
+  "id": "plaza_nh48_vapi",
+  "name": "Vapi Toll Plaza",
+  "nh": "NH-48",
+  "state": "Gujarat",
+  "coordinates": { "lat": 20.3711, "lng": 72.9483 },
+  "rates": {
+    "car_jeep_van": { "single": 90, "return": 140, "fastag": 90 },
+    "lcv": { "single": 145, "return": 220, "fastag": 145 },
+    "bus_truck": { "single": 300, "return": 450, "fastag": 300 },
+    "mav": { "single": 475, "return": 710, "fastag": 475 },
+    "hcm_eme": { "single": 475, "return": 710, "fastag": 475 },
+    "oversized": { "single": 580, "return": 870, "fastag": 580 }
+  },
+  "operator": "NHAI",
+  "last_updated": "2025-01-01"
+}
