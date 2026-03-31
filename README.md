@@ -33,6 +33,8 @@ yarn add highway-buddy
 pnpm add highway-buddy
 ```
 
+> **v0.1 Coverage Note:** Full data exists for NH-48 (22 plazas, Delhi–Mumbai). All other highways are community-expandable — see [CONTRIBUTING.md](./CONTRIBUTING.md). The API surface is stable. The dataset is what grows.
+
 ---
 
 ## Quick Start
@@ -86,6 +88,7 @@ await poi.nearby({ lat: 27.58, lng: 75.92, type: 'petrol', radius: 15 })
 // → [{ name: 'HP Petrol Pump', dist: 3.2, lat, lng, open24h: true }]
 
 poi.types // 'petrol' | 'food' | 'atm' | 'hospital' | 'police' | 'rest'
+// Note: atm, hospital, and police return [] until data is contributed for those types
 
 await poi.onHighway({ nh: 'NH44', type: 'hospital' })
 ```
@@ -162,25 +165,24 @@ const trip = await planTrip('Delhi', 'Manali')
 
 ## Data Coverage
 
-v0.1 ships with complete data for India's busiest corridor. Community contributions expand coverage every release.
+v0.1 ships with complete data for NH-48. Community contributions expand coverage every release — see [CONTRIBUTING.md](./CONTRIBUTING.md).
 
-| Metric | v0.1 |
-|---|---|
-| NHs in dataset | 600+ |
-| Toll plazas mapped | 1,148 |
-| POIs indexed | 28,400+ |
-| Data sync cadence | Weekly |
+| Metric | v0.1 (current) | Target |
+|---|---|---|
+| NHs with full data | 1 (NH-48) | 600+ |
+| Toll plazas mapped | 22 | 1,148 |
+| POIs indexed | NH-48 only | 28,400+ |
+| Data sync cadence | Community PRs | Weekly automation |
 
 **Highway coverage:**
 
-| Highway | Route | Coverage |
+| Highway | Route | Status |
 |---|---|---|
-| NH48 | Delhi–Mumbai | 100% |
-| NH44 | Srinagar–Kanyakumari | 100% |
-| NH19 | Delhi–Kolkata | 97% |
-| NH27 | East-West Corridor | 92% |
-| NH16 | Kolkata–Chennai | 88% |
-| All other NHs | — | 60% |
+| NH-48 | Delhi–Mumbai | Full (22 plazas) |
+| NH-44 | Srinagar–Kanyakumari | Contributions welcome |
+| NH-19 | Delhi–Kolkata | Contributions welcome |
+| NH-27 | East-West Corridor | Contributions welcome |
+| NH-16 | Kolkata–Chennai | Contributions welcome |
 
 ---
 

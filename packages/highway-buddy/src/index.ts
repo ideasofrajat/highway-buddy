@@ -158,6 +158,12 @@ export const highway = {
   async get(nh: string) {
     const route = Object.values(routes).find((r) => r.code.toUpperCase() === nh.toUpperCase());
     const routePlazas = plazas.filter((p) => p.nh.toUpperCase() === nh.toUpperCase());
+    if (routePlazas.length === 0) {
+      throw new Error(
+        `No data for ${nh.toUpperCase()} yet. ` +
+          `See https://github.com/ideasofrajat/highway-buddy/blob/main/CONTRIBUTING.md to add it.`
+      );
+    }
     return {
       number: nh.toUpperCase(),
       length: nh.replace(/-/g, "").toUpperCase() === "NH48" ? 2807 : 0,
@@ -199,8 +205,9 @@ export const emergency = {
 };
 
 /**
- * Reserved for future cloud API key support. Currently a no-op.
- * @param _input.apiKey - Your highway-buddy cloud API key (not yet active)
+ * Cloud API key configuration. Currently a no-op — cloud backend is on the roadmap for v0.2.
+ * Offline data (toll rates, POIs, highway info) works without calling configure().
+ * @param _input.apiKey - Reserved for future highway-buddy Cloud key
  */
 export const configure = (_input: { apiKey: string }) => {};
 

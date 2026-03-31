@@ -102,6 +102,10 @@ describe("highway.get", () => {
     expect(info.states.length).toBeGreaterThan(0);
     expect(info.length).toBeGreaterThan(0);
   });
+
+  it("throws for a highway with no data yet", async () => {
+    await expect(highway.get("NH-44")).rejects.toThrow("No data for NH-44");
+  });
 });
 
 describe("highway.speedLimit", () => {
